@@ -1,0 +1,97 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\rafae\OneDrive\Área de Trabalho\Férias 2020\PCB Design\Design Files\V1I1\28Pins_Project_V1I1\28Pins_PCB.PcbDoc
+Date     : 11/11/2020
+Time     : 18:00:08
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.3mm) (IsRegion),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.3mm) (Max=0.5mm) (Preferred=0.3mm) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.4mm) (Max=4mm) (Preferred=0.4mm) (InNet('+*') or InNet('GND'))
+Rule Violations :0
+
+Processing Rule : Routing Layers(All)
+Rule Violations :0
+
+Processing Rule : Routing Via (MinHoleWidth=0.3mm) (MaxHoleWidth=0.3mm) (PreferredHoleWidth=0.3mm) (MinWidth=0.6mm) (MaxWidth=0.6mm) (PreferedWidth=0.6mm) (All)
+Rule Violations :0
+
+Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=0.254mm) (Max=0.254mm) (Prefered=0.254mm)  and Width Constraints (Min=0.381mm) (Max=0.381mm) (Prefered=0.381mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.2mm) (Max=10mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.3mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.1mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0.1mm) (IsPad),(All)
+   Violation between Silk To Solder Mask Clearance Constraint: (0.06mm < 0.1mm) Between Arc (15.24mm,50.8mm) on Top Overlay And Pad J4-10(18.796mm,50.8mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.06mm]
+Rule Violations :1
+
+Processing Rule : Silk to Silk (Clearance=0.1mm) (All),(All)
+   Violation between Silk To Silk Clearance Constraint: (0.096mm < 0.1mm) Between Text "__________" (24.412mm,37.3mm) on Bottom Overlay And Text "|" (26.33mm,34.546mm) on Bottom Overlay Silk Text to Silk Clearance [0.096mm]
+   Violation between Silk To Silk Clearance Constraint: (0.017mm < 0.1mm) Between Text "1" (9.8mm,7.9mm) on Top Overlay And Track (10.35mm,7.53mm)(10.35mm,10.07mm) on Top Overlay Silk Text to Silk Clearance [0.017mm]
+   Violation between Silk To Silk Clearance Constraint: (0.017mm < 0.1mm) Between Text "14" (29.3mm,21.8mm) on Top Overlay And Track (27.755mm,21.583mm)(63.355mm,21.583mm) on Top Overlay Silk Text to Silk Clearance [0.017mm]
+   Violation between Silk To Silk Clearance Constraint: (0.083mm < 0.1mm) Between Text "16" (32.1mm,9.4mm) on Top Overlay And Track (27.755mm,11.183mm)(63.355mm,11.183mm) on Top Overlay Silk Text to Silk Clearance [0.083mm]
+   Violation between Silk To Silk Clearance Constraint: (0.05mm < 0.1mm) Between Text "16" (32.1mm,9.4mm) on Top Overlay And Track (32.084mm,5.849mm)(32.084mm,9.151mm) on Top Overlay Silk Text to Silk Clearance [0.05mm]
+   Violation between Silk To Silk Clearance Constraint: (0.049mm < 0.1mm) Between Text "16" (32.1mm,9.4mm) on Top Overlay And Track (32.084mm,9.151mm)(34.116mm,9.151mm) on Top Overlay Silk Text to Silk Clearance [0.049mm]
+   Violation between Silk To Silk Clearance Constraint: (0.017mm < 0.1mm) Between Text "25" (54.9mm,9.3mm) on Top Overlay And Track (27.755mm,11.183mm)(63.355mm,11.183mm) on Top Overlay Silk Text to Silk Clearance [0.017mm]
+   Violation between Silk To Silk Clearance Constraint: (0.082mm < 0.1mm) Between Text "ICSP1" (3.9mm,42.7mm) on Top Overlay And Track (1.27mm,42.418mm)(8.89mm,42.418mm) on Top Overlay Silk Text to Silk Clearance [0.082mm]
+   Violation between Silk To Silk Clearance Constraint: (0.048mm < 0.1mm) Between Text "JP4" (10.167mm,6.3mm) on Top Overlay And Track (10.35mm,7.53mm)(10.35mm,10.07mm) on Top Overlay Silk Text to Silk Clearance [0.048mm]
+   Violation between Silk To Silk Clearance Constraint: (0.003mm < 0.1mm) Between Text "JP4" (10.167mm,6.3mm) on Top Overlay And Track (10.35mm,7.53mm)(17.97mm,7.53mm) on Top Overlay Silk Text to Silk Clearance [0.003mm]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 0.1mm) Between Text "JP4" (10.167mm,6.3mm) on Top Overlay And Track (9.95mm,2.3mm)(9.95mm,6.8mm) on Top Overlay Silk Text to Silk Clearance [0mm]
+   Violation between Silk To Silk Clearance Constraint: (0.076mm < 0.1mm) Between Text "R" (26.7mm,38.3mm) on Top Overlay And Track (26.424mm,38.038mm)(26.424mm,39.562mm) on Top Overlay Silk Text to Silk Clearance [0.076mm]
+   Violation between Silk To Silk Clearance Constraint: (0.076mm < 0.1mm) Between Text "T" (26.7mm,40.3mm) on Top Overlay And Track (26.424mm,39.938mm)(26.424mm,41.462mm) on Top Overlay Silk Text to Silk Clearance [0.076mm]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 0.1mm) Between Text "U" (26.524mm,42.738mm) on Top Overlay And Track (26.324mm,42.538mm)(26.324mm,44.062mm) on Top Overlay Silk Text to Silk Clearance [0mm]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 0.1mm) Between Text "U" (26.524mm,42.738mm) on Top Overlay And Track (27.349mm,41.984mm)(27.349mm,44.016mm) on Top Overlay Silk Text to Silk Clearance [0mm]
+Rule Violations :15
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0mm, Vertical Gap = 0mm ) (InComponent('SCKT FOR U1')),(InComponent('MH2') or InComponent('U1')) 
+Rule Violations :0
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0mm, Vertical Gap = 0mm ) (InComponent('MH4')),(InComponent('J4') or InComponent('FID3')) 
+Rule Violations :0
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0mm, Vertical Gap = 0mm ) (InComponent('SW2')),(InComponent('FID1')) 
+Rule Violations :0
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0mm, Vertical Gap = 0mm ) (InComponent('R27')),(InComponent('R28')) 
+Rule Violations :0
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0.2mm, Vertical Gap = 0.2mm ) (All),(All) 
+Rule Violations :0
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0mm, Vertical Gap = 0mm ) (InComponent('MH2')),(InComponent('J2')) 
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 16
+Waived Violations : 0
+Time Elapsed        : 00:00:01

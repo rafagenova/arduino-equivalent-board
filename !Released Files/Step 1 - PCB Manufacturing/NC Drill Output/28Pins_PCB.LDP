@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Users\rafae\OneDrive\Área de Trabalho\Férias 2020\PCB Design\Design Files\V1I1\28Pins_Project_V1I1\28Pins_PCB.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=28pins_pcb-roundholes.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=28pins_pcb-slotholes.txt|DrillLayers=gtl,gbl
